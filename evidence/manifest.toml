@@ -1,0 +1,63 @@
+version = 1
+mission = "노코드 자동화 기초: 워크플로우 설계"
+
+[[requirements]]
+id = "project1.make.workflow"
+status = "complete"
+files = ["evidence/project-1/make/Make03_전체워크플로우.png"]
+
+[[requirements]]
+id = "project1.make.automatic_run"
+status = "complete"
+files = ["evidence/project-1/make/Make02_History_자동실행성공.png"]
+
+[[requirements]]
+id = "project1.zapier.workflow"
+status = "complete"
+files = ["evidence/project-1/zapier/Zapier01_전체워크플로우.png"]
+
+[[requirements]]
+id = "project1.zapier.automatic_run"
+status = "complete"
+files = ["evidence/project-1/zapier/Zapier02_History_자동실행성공.png"]
+
+[[requirements]]
+id = "project1.branch_results"
+status = "complete"
+files = [
+  "evidence/project-1/results/01_Make_일반사건_처리결과.png",
+  "evidence/project-1/results/02_Make_긴급사건_처리결과.png",
+  "evidence/project-1/results/05_Zapier_일반사건_처리결과.png",
+  "evidence/project-1/results/06_Zapier_긴급사건_처리결과.png",
+]
+[[requirements]]
+id = "project1.email_results"
+status = "complete"
+files = [
+  "evidence/project-1/results/03_Make_일반이메일_수신결과.png",
+  "evidence/project-1/results/04_Make_긴급이메일_수신결과.png",
+  "evidence/project-1/results/07_Zapier_일반이메일_수신결과.png",
+  "evidence/project-1/results/08_Zapier_긴급이메일_수신결과.png",
+]
+
+[[requirements]]
+id = "project2.implementation"
+status = "pending"
+files = []
+
+[[requirements]]
+id = "bonus.ai_action"
+status = "complete"
+files = [
+  "evidence/bonus/ai/BONUS1-01_AI_Action_전체구조.png",
+  "evidence/bonus/ai/보너스1-05_AI자동실행_History성공.png",
+]
+
+[[requirements]]
+id = "bonus.retry_strategy"
+status = "complete"
+files = [
+  "evidence/bonus/retry/보너스2-01_Zapier_실패알림메일.png",
+  "evidence/bonus/retry/보너스2-03_오류수정후_재실행성공.png",
+  "evidence/bonus/retry/보너스2-04_재시도전략_설계.png",
+]
